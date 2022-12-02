@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>SUFeedURL</key>
+	<string>https://api.appcenter.ms/v0.1/public/sparkle/apps/87eb1b62-7f80-431b-a4b1-3b7709745e84</string>
+</dict>
 </plist>

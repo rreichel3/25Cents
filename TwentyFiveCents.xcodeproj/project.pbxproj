@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D91E3C22918A78000DB6BEE /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 4D91E3C12918A78000DB6BEE /* LaunchAtLogin */; };
+		4D91E3C52918AF2200DB6BEE /* ConditionalViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91E3C42918AF2200DB6BEE /* ConditionalViewModifier.swift */; };
+		4D91E3C82918B13100DB6BEE /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 4D91E3C72918B13100DB6BEE /* Sparkle */; };
 		4DCCD6DA290A3141001EBD80 /* TwentyFiveCentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCD6D9290A3141001EBD80 /* TwentyFiveCentsApp.swift */; };
-		4DCCD6DC290A3141001EBD80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCD6DB290A3141001EBD80 /* ContentView.swift */; };
-		4DCCD6DE290A3142001EBD80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCCD6DD290A3142001EBD80 /* Assets.xcassets */; };
 		4DCCD6E1290A3142001EBD80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCCD6E0290A3142001EBD80 /* Preview Assets.xcassets */; };
+		4DCCD6E9290A3162001EBD80 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCD6E8290A3162001EBD80 /* DateExtensions.swift */; };
+		4DCCD6EB290A320F001EBD80 /* TimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCD6EA290A320F001EBD80 /* TimeViewModel.swift */; };
+		4DD53063291F0CA300FEACFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCCD6DD290A3142001EBD80 /* Assets.xcassets */; };
+		4DD530642921E6C900FEACFB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DD53062291EDD5700FEACFB /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D91E3C42918AF2200DB6BEE /* ConditionalViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalViewModifier.swift; sourceTree = "<group>"; };
 		4DCCD6D6290A3141001EBD80 /* TwentyFiveCents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwentyFiveCents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCCD6D9290A3141001EBD80 /* TwentyFiveCentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwentyFiveCentsApp.swift; sourceTree = "<group>"; };
-		4DCCD6DB290A3141001EBD80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4DCCD6DD290A3142001EBD80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DCCD6DD290A3142001EBD80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TwentyFiveCents/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		4DCCD6E0290A3142001EBD80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4DCCD6E2290A3142001EBD80 /* TwentyFiveCents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TwentyFiveCents.entitlements; sourceTree = "<group>"; };
+		4DCCD6E8290A3162001EBD80 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		4DCCD6EA290A320F001EBD80 /* TimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewModel.swift; sourceTree = "<group>"; };
+		4DD53062291EDD5700FEACFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D91E3C22918A78000DB6BEE /* LaunchAtLogin in Frameworks */,
+				4D91E3C82918B13100DB6BEE /* Sparkle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,11 +62,14 @@
 		4DCCD6D8290A3141001EBD80 /* TwentyFiveCents */ = {
 			isa = PBXGroup;
 			children = (
+				4DD53062291EDD5700FEACFB /* Info.plist */,
 				4DCCD6D9290A3141001EBD80 /* TwentyFiveCentsApp.swift */,
-				4DCCD6DB290A3141001EBD80 /* ContentView.swift */,
 				4DCCD6DD290A3142001EBD80 /* Assets.xcassets */,
 				4DCCD6E2290A3142001EBD80 /* TwentyFiveCents.entitlements */,
 				4DCCD6DF290A3142001EBD80 /* Preview Content */,
+				4DCCD6E8290A3162001EBD80 /* DateExtensions.swift */,
+				4DCCD6EA290A320F001EBD80 /* TimeViewModel.swift */,
+				4D91E3C42918AF2200DB6BEE /* ConditionalViewModifier.swift */,
 			);
 			path = TwentyFiveCents;
 			sourceTree = "<group>";
@@ -79,12 +92,17 @@
 				4DCCD6D2290A3141001EBD80 /* Sources */,
 				4DCCD6D3290A3141001EBD80 /* Frameworks */,
 				4DCCD6D4290A3141001EBD80 /* Resources */,
+				4D91E3C32918A7A800DB6BEE /* Copy Launch at Login Helper */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = TwentyFiveCents;
+			packageProductDependencies = (
+				4D91E3C12918A78000DB6BEE /* LaunchAtLogin */,
+				4D91E3C72918B13100DB6BEE /* Sparkle */,
+			);
 			productName = TwentyFiveCents;
 			productReference = 4DCCD6D6290A3141001EBD80 /* TwentyFiveCents.app */;
 			productType = "com.apple.product-type.application";
@@ -97,7 +115,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					4DCCD6D5290A3141001EBD80 = {
 						CreatedOnToolsVersion = 14.0.1;
@@ -113,6 +131,10 @@
 				Base,
 			);
 			mainGroup = 4DCCD6CD290A3141001EBD80;
+			packageReferences = (
+				4D91E3C02918A78000DB6BEE /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+				4D91E3C62918B13100DB6BEE /* XCRemoteSwiftPackageReference "Sparkle" */,
+			);
 			productRefGroup = 4DCCD6D7290A3141001EBD80 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,20 +149,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD53063291F0CA300FEACFB /* Assets.xcassets in Resources */,
 				4DCCD6E1290A3142001EBD80 /* Preview Assets.xcassets in Resources */,
-				4DCCD6DE290A3142001EBD80 /* Assets.xcassets in Resources */,
+				4DD530642921E6C900FEACFB /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D91E3C32918A7A800DB6BEE /* Copy Launch at Login Helper */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Launch at Login Helper";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${BUILT_PRODUCTS_DIR}/LaunchAtLogin_LaunchAtLogin.bundle/Contents/Resources/copy-helper-swiftpm.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4DCCD6D2290A3141001EBD80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DCCD6DC290A3141001EBD80 /* ContentView.swift in Sources */,
+				4DCCD6EB290A320F001EBD80 /* TimeViewModel.swift in Sources */,
 				4DCCD6DA290A3141001EBD80 /* TwentyFiveCentsApp.swift in Sources */,
+				4DCCD6E9290A3162001EBD80 /* DateExtensions.swift in Sources */,
+				4D91E3C52918AF2200DB6BEE /* ConditionalViewModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +227,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -240,6 +288,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -265,23 +314,32 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = TwentyFiveCents/TwentyFiveCents.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 30;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"TwentyFiveCents/Preview Content\"";
 				DEVELOPMENT_TEAM = K687V654UF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwentyFiveCents/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "25 Cents";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.reichel.TwentyFiveCents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -292,23 +350,32 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = TwentyFiveCents/TwentyFiveCents.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 30;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"TwentyFiveCents/Preview Content\"";
 				DEVELOPMENT_TEAM = K687V654UF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwentyFiveCents/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "25 Cents";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.reichel.TwentyFiveCents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -336,6 +403,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4D91E3C02918A78000DB6BEE /* XCRemoteSwiftPackageReference "LaunchAtLogin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		4D91E3C62918B13100DB6BEE /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D91E3C12918A78000DB6BEE /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D91E3C02918A78000DB6BEE /* XCRemoteSwiftPackageReference "LaunchAtLogin" */;
+			productName = LaunchAtLogin;
+		};
+		4D91E3C72918B13100DB6BEE /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D91E3C62918B13100DB6BEE /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4DCCD6CE290A3141001EBD80 /* Project object */;
 }
